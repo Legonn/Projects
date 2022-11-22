@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.Container-header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(pictures/poza.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  margin: 40px 60px;
+  padding: 10px 5px;
+  background-color: #00ffb7;
+  color: rgb(62, 54, 54);
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid rgb(62, 54, 54);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  scale: 1.4;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.nav-li {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #00ffb7;
+  color: #3e3636;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-li:hover {
+  text-decoration: underline;
+  background-color: #3e3636;
+  color: #00ffb7;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 75px;
+  color: #3e3636;
+}
+
+span {
+  color: #00ffb7;
+}
+
+h4 {
+  font-size: 30px;
+  color: #3e3636;
+}
+
+h3 {
+  color: #3e3636;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about img {
+  height: auto;
+  width: 400px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.about-text {
+  width: 550px;
+  color: white;
+}
+.about-title {
+  font-size: 40px;
+}
+
+.main {
+  background-color: #3e3636;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-me {
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+#subtitle {
+  font-size: 20px;
+}
+.talk-button {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  color: #3e3636;
+  background-color: #00ffb7;
+  font-size: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.experience-container {
+  background-color: #3e3636;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.card {
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  background-color: silver;
+  padding: 20px;
+  text-align: center;
+}
+.element-ascuns {
+  display: none;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.avatar {
+  /* display: none; */
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  display: block;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 40px;
+  color: #00ffb7;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.logo {
+  font-size: 50px;
+  color: #00ffb7;
+}
+
+footer {
+  background-color: #3e3636;
+  text-align: center;
+  padding-top: 30px;
+}
+footer h3 {
+  font-size: 35px;
+  color: #00ffb7;
+}
+
+footer h4 {
+  font-size: 25px;
+  color: #00ffb7;
+  letter-spacing: 2.5px;
+}
+
+.social a {
+  color: #00ffb7;
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px;
+  margin-top: 20px;
+}
+.end {
+  color: white;
+}
+.copy {
+  font-size: 18px;
+  color: white;
+}
